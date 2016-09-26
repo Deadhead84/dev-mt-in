@@ -1,0 +1,123 @@
+@import 'https://fonts.googleapis.com/css?family=Lora';
+
+body, html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lora', serif;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(128,128,128,.25);
+}
+
+.search {
+  order: 1;
+}
+
+.search img {
+  margin-top: 25px;;
+  margin-left: 20px;
+}
+.title {
+  order: 2;
+  font-size: 16.8px;
+  line-height: 21px;
+  font-family: 'Lora', serif;
+  color: #212121;
+}
+
+.ham {
+  order: 3;
+}
+
+.ham img {
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+.center-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.center-left {
+  margin-top: 50px;
+  width: 40%;
+}
+.center-left p {
+  text-align: center;
+  color: #232323;
+  font-family: 'Lora', serif;
+  font-size: 12.07px;
+  line-height: 14px;
+
+}
+.center-left strong {
+  color: #00ffe9;
+}
+
+.info-form input {
+  font-size: 15.96px;
+  line-height: 19px;
+  font-family: 'Lora', serif;
+  display: block;
+  margin: 0 auto;
+  width: 220px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.center-left textarea {
+  font-size: 15.96px;
+  line-height: 19px;
+  font-family: 'Lora', serif;
+  display: block;
+  margin: 0 auto;
+  width: 220px;
+  border-color: #d8d8d8;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+.center-left button {
+  display: block;
+  width: 215px;
+  height: 28px;
+  margin: 0 auto;
+  border-style: none;
+  background-color: #00ffe9;
+  border-radius: none;
+  color: #9a9a9a;
+  font-family: 'Lora', serif;
+  font-size: 13.44px;
+  line-height: 17px;
+}
+
+.center-right {
+  float: left;
+}
+
+.footer {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-top: 1px solid rgba(128,128,128,.25);
+  justify-content: space-around;
+  color: #a9a9a9;
+}
+
+.view {
+  order: 1;
+}
+
+.find {
+  order: 2;
+}
+
+.update {
+  order: 3;
+}

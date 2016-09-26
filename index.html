@@ -1,14 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="devMtIn">
 
 <head>
 	<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css" media="screen" title="no title">
 	<title>DevMtin</title>
 </head>
 
-<body>
+<body ng-controller="mainCtrl">
 
-  
+	<div class="app-header">
+		<div class="search">
+			<img src="images/icons/search.svg"></img>
+		</div>
+		<div class="title">
+			<h2>DevMountain</h2>
+		</div>
+		<div class="ham">
+			<img src="images/Icons/ham.svg" alt="hamburger icon" />
+		</div>
+	</div>
+
+	<div class="center-container">
+		<div class="center-left">
+			<p>
+				Welcome to <strong>DevMountain</strong> Social
+				<br>
+				Add Some Info So Friends Can Find You
+			</p>
+			<div class="form-container">
+				<form class="info-form" action="index.html" method="post">
+					<input type="textbox" name="name" value="" placeholder="Full Name">
+					<input type="textbox" name="tagline" value="" placeholder="Tagline">
+					<input type="textbox" name="imageUrl" value="" placeholder="Profile Image Url">
+					<textarea name="bio" rows="8" cols="40" placeholder="Bio"></textarea>
+					<button type="submit" name="button">Save Changes</button>
+				</form>
+			</div>
+		</div>
+		<div class="center-right">
+
+		</div>
+	</div> <!--center container -->
+	<div class="footer">
+		<div class="view">
+			<p>
+				View Friends
+			</p>
+		</div>
+
+		<div class="find">
+			<p>
+				Find Friends
+			</p>
+		</div>
+
+		<div class="update">
+			<p>
+				Update Friends
+			</p>
+		</div>
+
+	</div>
+ <!-- <div ng-view></div> -->
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
+ <script src="js/app.js"></script>
+ <script src="js/mainCtrl.js"></script>
 </body>
 </html>
